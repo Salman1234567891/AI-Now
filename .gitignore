@@ -1,0 +1,37 @@
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# JavaScript / frontend
+node_modules/
+dist/
+build/
+.next/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs, coverage, and temporary output
+*.log
+coverage/
+.coverage
+tmp/
+temp/
+
+# Local data and generated artifacts (retain committed samples)
+data/raw/
+data/processed/
+artifacts/
